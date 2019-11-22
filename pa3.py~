@@ -1,0 +1,144 @@
+'''
+Add the code below the TO-DO statements to finish the assignment. Keep the interfaces
+of the provided functions unchanged. Change the returned values of these functions
+so that they are consistent with the assignment instructions. Include additional import
+statements and functions if necessary.
+'''
+
+import csv
+import numpy as np
+
+'''
+The loss functions shall return a scalar, which is the *average* loss of all the examples
+'''
+
+'''
+For instance, the square loss of all the training examples is computed as below:
+
+def squared_loss(train_y, pred_y):
+
+    loss = np.mean(np.square(train_y - pred_y))
+
+    return loss
+'''
+
+# return the average logistic loss over all samples
+def logistic_loss(train_y, pred_y):
+    # get the prediction
+    prediction = train_y * pred_y
+
+    #calculate element wise logistic loss
+    elem_log = np.log(1+np.exp(-prediction))
+
+    # calculate the average of the logistic losses
+    log_loss = np.mean(elem_log)
+
+    # return the average log_loss
+    return log_loss
+
+# return the average hinge loss over all samples
+def hinge_loss(train_y, pred_y):
+    # get the prediction
+    prediction = train_y * pred_y    
+
+    # calculate element wise hinge loss
+    elem_hinge = np.maximum(0, 1-prediction)
+    
+    # calculate the average hinge loss
+    hinge_loss = np.mean(elem_hinge)
+
+    # return the average hinge loss
+    return hinge_loss
+
+'''
+The regularizers shall compute the loss without considering the bias term in the weights
+'''
+# compute the l1 norma of the weight vector
+def l1_reg(w):
+    # computes the l1 norm without while ignoring the bias term
+    return np.linalg.norm(w[1:], ord=1)
+
+# compute the  l2 norm of the weight vector
+def l2_reg(w):
+    # computes the l2 norm without while ignoring the bias term
+    return np.linalg.norm(w[1:], ord=2)
+
+def train_classifier(train_x, train_y, learn_rate, loss, lambda_val=None, regularizer=None):
+
+    # TO-DO: Add your code here
+
+    return None
+
+def test_classifier(w, test_x):
+
+    # TO-DO: Add your code here
+
+    return None
+
+#def cross_validate(dataX, dataY):
+
+# performs n-fold cross validation
+def n_fold_cross_validate(dataX, dataY, n):
+    # get a permutation object to randomize the data
+    perm = np.random.permutation(len(dataY))
+
+    # randomize the data
+    dataX = dataX[perm]
+    dataY = dataY[perm]    
+
+    # split the data into n sections
+    split_dataX = np.split(dataX, n)
+    split_dataY = np.split(dataY, n)
+    
+    '''
+    np.split(x,y,n)
+    for i in range(n):
+        merge all except ith
+        normalize merged
+        train on all except i
+        normalize ith
+        test on i
+    '''
+'''        
+def split(dataX, dataY, size):
+    
+def normalize_data
+'''
+
+def main():
+
+    # Read the training data file
+    szDatasetPath = 'winequality-white.csv'
+    listClasses = []
+    listAttrs = []
+    bFirstRow = True
+    with open(szDatasetPath) as csvFile:
+        csvReader = csv.reader(csvFile, delimiter=',')
+        for row in csvReader:
+            if bFirstRow:
+                bFirstRow = False
+                continue
+            if int(row[-1]) < 6:
+                listClasses.append(-1)
+                listAttrs.append(list(map(float, row[1:len(row) - 1])))
+            elif int(row[-1]) > 6:
+                listClasses.append(+1)
+                listAttrs.append(list(map(float, row[1:len(row) - 1])))
+
+    dataX = np.array(listAttrs)
+    dataY = np.array(listClasses)
+
+    # 5-fold cross-validation
+	# Note: in this assignment, preprocessing the feature values will make
+	# a big difference on the accuracy. Perform feature normalization after
+	# spliting the data to training and validation set. The statistics for
+	# normalization would be computed on the training set and applied on
+	# training and validation set afterwards.
+	# TO-DO: Add your code here
+    n_fold_cross_validate(dataX, dataY, 5)
+        
+    return None
+
+if __name__ == "__main__":
+
+    main()
