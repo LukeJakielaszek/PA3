@@ -7,20 +7,7 @@ statements and functions if necessary.
 
 import csv
 import numpy as np
-
-'''
-The loss functions shall return a scalar, which is the *average* loss of all the examples
-'''
-
-'''
-For instance, the square loss of all the training examples is computed as below:
-
-def squared_loss(train_y, pred_y):
-
-    loss = np.mean(np.square(train_y - pred_y))
-
-    return loss
-'''
+import matplotlib.pyplot as plt
 
 # return the average logistic loss over all samples
 def logistic_loss(train_y, pred_y):
@@ -67,9 +54,10 @@ def train_classifier(train_x, train_y, learn_rate, loss, lambda_val=None, regula
     # generate our weight vector drawn from normal distribution in the scale of .01
     w = np.random.normal(scale=.01, size = len(train_x[0]))
 
-    # Run for 15000 iterations
-    num_iters = 15000
-    
+    # number of iterations
+    num_iters = 30000
+
+    # run through all iterations
     for i in range(num_iters):
         # calculate teh numerical gradient
         gradient = calculate_gradient(w, train_x, train_y, loss, lambda_val, regularizer)
@@ -200,14 +188,14 @@ def n_fold_cross_validate(dataX, dataY, n, learn_rate, loss, lambda_val=None, re
         # compute the accuracy for each prediction on the validation set
         accuracy = compute_accuracy(test_y, pred_y)
 
-        ave_acc += accuracy
+        average_acc += accuracy
         print("\t\tAccuracy: " + str(accuracy))
 
     # compute the average accuracy
-    ave_acc /= n
+    average_acc /= n
 
     # display the average
-    print("\tAverage Accuracy: " + str(accuracy))
+    print("\tAverage Accuracy: " + str(average_acc))
 
 # computes accuracy by comparing predictions to known values
 def compute_accuracy(test_y, pred_y):
@@ -313,11 +301,12 @@ def main():
     lambdas = [100, 10, 1, .1, .01, .001]
 
     # perform a perameter sweep of all values for SVM
+    print("SVM (Hinge Loss with L2 Regularizer):")
+
     # loop through each learning rate
     for learning_rate in learning_rates:
         # loop through each lambda
         for lambda_val in lambdas:
-            print("SVM (Hinge Loss with L2 Regularizer):")
             print("\tLearning Rate: " + str(learning_rate))
             print("\tLambda: " + str(lambda_val))
             
@@ -327,10 +316,12 @@ def main():
     print("---------------------------------------------------")
     print("---------------------------------------------------")
 
+    print("Logistic Regression (Logistic Loss without Regularizer):")
     # perform a perameter sweep of all values for logistic regression
     # loop through each learning rate
     for learning_rate in learning_rates:
-        print("Logistic Regression (Logistic Loss without Regularizer):")
+        print("\tLearning Rate: " + str(learning_rate))
+
         # perform 5-fold cross validation using the lr and lambda for logistic regression
         n_fold_cross_validate(dataX, dataY, 5, learning_rate, logistic_loss)
 

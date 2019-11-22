@@ -1,0 +1,307 @@
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.1
+	Lambda: 100
+		Accuracy: 0.7981481481481482
+		Accuracy: 0.6018518518518519
+		Accuracy: 0.7666666666666667
+		Accuracy: 0.5685185185185185
+		Accuracy: 0.5555555555555556
+	Average Accuracy: 0.658148148148148
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.1
+	Lambda: 10
+		Accuracy: 0.5333333333333333
+		Accuracy: 0.5185185185185185
+		Accuracy: 0.5092592592592593
+		Accuracy: 0.5148148148148148
+		Accuracy: 0.5203703703703704
+	Average Accuracy: 0.5192592592592593
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.1
+	Lambda: 1
+		Accuracy: 0.6333333333333333
+		Accuracy: 0.5740740740740741
+		Accuracy: 0.5777777777777777
+		Accuracy: 0.6092592592592593
+		Accuracy: 0.6425925925925926
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.1
+	Lambda: 0.1
+		Accuracy: 0.8388888888888889
+		Accuracy: 0.8425925925925926
+		Accuracy: 0.8333333333333334
+		Accuracy: 0.8055555555555556
+		Accuracy: 0.8425925925925926
+	Average Accuracy: 0.8325925925925926
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.1
+	Lambda: 0.01
+		Accuracy: 0.8407407407407408
+		Accuracy: 0.8240740740740741
+		Accuracy: 0.8444444444444444
+		Accuracy: 0.8055555555555556
+		Accuracy: 0.8314814814814815
+	Average Accuracy: 0.8292592592592593
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.1
+	Lambda: 0.001
+		Accuracy: 0.837037037037037
+		Accuracy: 0.825925925925926
+		Accuracy: 0.8185185185185185
+		Accuracy: 0.8240740740740741
+		Accuracy: 0.8296296296296296
+	Average Accuracy: 0.827037037037037
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.01
+	Lambda: 100
+		Accuracy: 0.4925925925925926
+		Accuracy: 0.5203703703703704
+		Accuracy: 0.5111111111111111
+		Accuracy: 0.5
+		Accuracy: 0.5092592592592593
+	Average Accuracy: 0.5066666666666666
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.01
+	Lambda: 10
+		Accuracy: 0.6296296296296297
+		Accuracy: 0.6
+		Accuracy: 0.6129629629629629
+		Accuracy: 0.6055555555555555
+		Accuracy: 0.5888888888888889
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.01
+	Lambda: 1
+		Accuracy: 0.6185185185185185
+		Accuracy: 0.6111111111111112
+		Accuracy: 0.6111111111111112
+		Accuracy: 0.6055555555555555
+		Accuracy: 0.5907407407407408
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.01
+	Lambda: 0.1
+		Accuracy: 0.8277777777777777
+		Accuracy: 0.8425925925925926
+		Accuracy: 0.8092592592592592
+		Accuracy: 0.8240740740740741
+		Accuracy: 0.85
+	Average Accuracy: 0.8307407407407407
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.01
+	Lambda: 0.01
+		Accuracy: 0.8277777777777777
+		Accuracy: 0.837037037037037
+		Accuracy: 0.7944444444444444
+		Accuracy: 0.8296296296296296
+		Accuracy: 0.8296296296296296
+	Average Accuracy: 0.8237037037037037
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.01
+	Lambda: 0.001
+		Accuracy: 0.8648148148148148
+		Accuracy: 0.8185185185185185
+		Accuracy: 0.8074074074074075
+		Accuracy: 0.7944444444444444
+		Accuracy: 0.8425925925925926
+	Average Accuracy: 0.8255555555555556
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.001
+	Lambda: 100
+		Accuracy: 0.6222222222222222
+		Accuracy: 0.6018518518518519
+		Accuracy: 0.6111111111111112
+		Accuracy: 0.6
+		Accuracy: 0.6018518518518519
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.001
+	Lambda: 10
+		Accuracy: 0.5740740740740741
+		Accuracy: 0.5907407407407408
+		Accuracy: 0.6351851851851852
+		Accuracy: 0.6111111111111112
+		Accuracy: 0.6259259259259259
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.001
+	Lambda: 1
+		Accuracy: 0.6018518518518519
+		Accuracy: 0.5907407407407408
+		Accuracy: 0.6333333333333333
+		Accuracy: 0.5981481481481481
+		Accuracy: 0.6129629629629629
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.001
+	Lambda: 0.1
+		Accuracy: 0.8277777777777777
+		Accuracy: 0.8074074074074075
+		Accuracy: 0.8481481481481481
+		Accuracy: 0.8277777777777777
+		Accuracy: 0.8166666666666667
+	Average Accuracy: 0.8255555555555555
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.001
+	Lambda: 0.01
+		Accuracy: 0.8111111111111111
+		Accuracy: 0.8537037037037037
+		Accuracy: 0.8333333333333334
+		Accuracy: 0.85
+		Accuracy: 0.8018518518518518
+	Average Accuracy: 0.8300000000000001
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.001
+	Lambda: 0.001
+		Accuracy: 0.8037037037037037
+		Accuracy: 0.837037037037037
+		Accuracy: 0.8444444444444444
+		Accuracy: 0.85
+		Accuracy: 0.8277777777777777
+	Average Accuracy: 0.8325925925925926
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.0001
+	Lambda: 100
+		Accuracy: 0.6037037037037037
+		Accuracy: 0.6018518518518519
+		Accuracy: 0.6092592592592593
+		Accuracy: 0.5981481481481481
+		Accuracy: 0.6240740740740741
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.0001
+	Lambda: 10
+		Accuracy: 0.6203703703703703
+		Accuracy: 0.5814814814814815
+		Accuracy: 0.6240740740740741
+		Accuracy: 0.5944444444444444
+		Accuracy: 0.6166666666666667
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.0001
+	Lambda: 1
+		Accuracy: 0.6203703703703703
+		Accuracy: 0.6148148148148148
+		Accuracy: 0.6240740740740741
+		Accuracy: 0.5925925925925926
+		Accuracy: 0.5851851851851851
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.0001
+	Lambda: 0.1
+		Accuracy: 0.8166666666666667
+		Accuracy: 0.7814814814814814
+		Accuracy: 0.8296296296296296
+		Accuracy: 0.8092592592592592
+		Accuracy: 0.7666666666666667
+	Average Accuracy: 0.8007407407407408
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.0001
+	Lambda: 0.01
+		Accuracy: 0.8425925925925926
+		Accuracy: 0.8111111111111111
+		Accuracy: 0.8
+		Accuracy: 0.7814814814814814
+		Accuracy: 0.7925925925925926
+	Average Accuracy: 0.8055555555555556
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 0.0001
+	Lambda: 0.001
+		Accuracy: 0.7944444444444444
+		Accuracy: 0.8203703703703704
+		Accuracy: 0.8203703703703704
+		Accuracy: 0.8092592592592592
+		Accuracy: 0.7907407407407407
+	Average Accuracy: 0.807037037037037
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 1e-05
+	Lambda: 100
+		Accuracy: 0.6148148148148148
+		Accuracy: 0.6296296296296297
+		Accuracy: 0.6203703703703703
+		Accuracy: 0.5907407407407408
+		Accuracy: 0.5814814814814815
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 1e-05
+	Lambda: 10
+		Accuracy: 0.6277777777777778
+		Accuracy: 0.6
+		Accuracy: 0.5981481481481481
+		Accuracy: 0.5851851851851851
+		Accuracy: 0.6259259259259259
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 1e-05
+	Lambda: 1
+		Accuracy: 0.6203703703703703
+		Accuracy: 0.6074074074074074
+		Accuracy: 0.5925925925925926
+		Accuracy: 0.5962962962962963
+		Accuracy: 0.6203703703703703
+	Average Accuracy: 0.6074074074074074
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 1e-05
+	Lambda: 0.1
+		Accuracy: 0.75
+		Accuracy: 0.774074074074074
+		Accuracy: 0.7574074074074074
+		Accuracy: 0.8037037037037037
+		Accuracy: 0.7703703703703704
+	Average Accuracy: 0.7711111111111112
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 1e-05
+	Lambda: 0.01
+		Accuracy: 0.7537037037037037
+		Accuracy: 0.7833333333333333
+		Accuracy: 0.7537037037037037
+		Accuracy: 0.7240740740740741
+		Accuracy: 0.7925925925925926
+	Average Accuracy: 0.7614814814814815
+SVM (Hinge Loss with L2 Regularizer):
+	Learning Rate: 1e-05
+	Lambda: 0.001
+		Accuracy: 0.75
+		Accuracy: 0.75
+		Accuracy: 0.7925925925925926
+		Accuracy: 0.7833333333333333
+		Accuracy: 0.7685185185185185
+	Average Accuracy: 0.768888888888889
+---------------------------------------------------
+---------------------------------------------------
+Logistic Regression (Logistic Loss without Regularizer):
+		Accuracy: 0.8518518518518519
+		Accuracy: 0.8185185185185185
+		Accuracy: 0.8
+		Accuracy: 0.8203703703703704
+		Accuracy: 0.8185185185185185
+	Average Accuracy: 0.821851851851852
+Logistic Regression (Logistic Loss without Regularizer):
+		Accuracy: 0.8296296296296296
+		Accuracy: 0.8203703703703704
+		Accuracy: 0.8277777777777777
+		Accuracy: 0.8203703703703704
+		Accuracy: 0.837037037037037
+	Average Accuracy: 0.827037037037037
+Logistic Regression (Logistic Loss without Regularizer):
+		Accuracy: 0.8185185185185185
+		Accuracy: 0.8148148148148148
+		Accuracy: 0.8518518518518519
+		Accuracy: 0.8314814814814815
+		Accuracy: 0.825925925925926
+	Average Accuracy: 0.8285185185185184
+Logistic Regression (Logistic Loss without Regularizer):
+		Accuracy: 0.7759259259259259
+		Accuracy: 0.774074074074074
+		Accuracy: 0.8277777777777777
+		Accuracy: 0.8037037037037037
+		Accuracy: 0.7722222222222223
+	Average Accuracy: 0.7907407407407406
+Logistic Regression (Logistic Loss without Regularizer):
+		Accuracy: 0.7592592592592593
+		Accuracy: 0.762962962962963
+		Accuracy: 0.7
+		Accuracy: 0.7666666666666667
+		Accuracy: 0.7759259259259259
+	Average Accuracy: 0.7529629629629631
